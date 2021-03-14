@@ -23,7 +23,6 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: nodejs12.x
-  lambdaHashingVersion: 20201221
   
 plugins:
   - serverless-finch
@@ -33,9 +32,7 @@ custom:
   client:
     bucketName: my-rss-application
     distributionFolder: build
-
-s3LocalPath: ${self:custom.client.distributionFolder}/
-s3BucketName: ${self:custom.client.bucketName}
+    indexDocument: index.html
 
 # you can overwrite defaults here
 #  stage: dev
