@@ -1,3 +1,10 @@
+CloudFront - https://dlqigcpxdp42f.cloudfront.net/
+
+==== After spa-plugin
+
+S3 - http://my-rss-application.s3-website-eu-west-1.amazonaws.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
